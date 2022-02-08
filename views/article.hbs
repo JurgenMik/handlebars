@@ -1,7 +1,8 @@
 {{#article}}
-    <h1> {{name}} </h1>
-    <p> Published {{published}} </p>
-    {{author_name}}
+    <h1>{{name}}</h1>
+    <p>Published {{published}}</p>
+    Author:<a href="/author/{{author_id}}">{{author_name}}</a>
     <p><img src="/images/{{image}}" alt=""></p>
     {{{body}}}
+
 {{/article}}
