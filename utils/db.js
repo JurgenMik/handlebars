@@ -1,7 +1,7 @@
 // setup database connection
 const mysql = require('mysql');
 
-
+// täpsustame millise andmebaasiga on tegu
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
